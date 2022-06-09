@@ -17,4 +17,4 @@ def get_hk_public_holiday(in_year):
 
     df[1] = df[1] + " " +str(in_year)
 
-    return pd.to_datetime(df[1], dayfirst=True)[1:]
+    return pd.to_datetime(df[1], dayfirst=True)[1:].rename("holiday")
