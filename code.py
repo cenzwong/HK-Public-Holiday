@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas
+import pandas as pd
 
 def get_hk_public_holiday(in_year):
 
